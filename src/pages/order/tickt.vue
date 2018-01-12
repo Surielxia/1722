@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="tickt">
     <div>【上午场】 故宫成人票+故宫全景手绘地图</div>
     <div></div>
   </div>
