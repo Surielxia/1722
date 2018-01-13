@@ -79,5 +79,6 @@ export default {
       .tickt-note
         margin-top: .12rem
         font-size: .28rem
+        font-weight: bold
         color: #00bcd4
 </style>
