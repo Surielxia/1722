@@ -3,6 +3,7 @@
 		<order-header></order-header>
 		<order-tickt :sightname="sightname" :price="price"></order-tickt>
     <order-num></order-num>
+    <order-submit :sightname="sightname" :price="price"></order-submit>
 	</div>
 </template>
 
@@ -10,18 +11,20 @@
   import OrderHeader from './header'
   import OrderTickt from './tickt'
   import OrderNum from './num'
+  import OrderSubmit from './submit'
   import axios from 'axios'
   export default {
     name: 'order',
     components: {
       OrderHeader,
       OrderTickt,
-      OrderNum
+      OrderNum,
+      OrderSubmit
     },
     data () {
       return {
         sightname: '',
-        price: ''
+        price: 1
       }
     },
     methods: {
@@ -45,4 +48,8 @@
   }
 </script>
 
-<style></style>
+<style>
+  body{
+    background: #f5f5f5
+  }
+</style>

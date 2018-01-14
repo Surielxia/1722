@@ -10,6 +10,9 @@ import 'assets/css/iconfont/iconfont.css'
 FastClick.attach(document.body)
 Vue.config.productionTip = false
 
+const bus = new Vue()
+Vue.prototype.$bus = bus
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

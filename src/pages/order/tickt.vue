@@ -28,7 +28,10 @@
 <script>
 export default {
   name: 'order-tickt',
-  props: ['sightname', 'price']
+  props: {
+    sightname: String,
+    price: Number
+  }
 }
 </script>
 
@@ -36,7 +39,7 @@ export default {
   .tickt
     height: 1.1rem
     padding: .2rem
-    background: #ccc
+    background: #fff
     .tickt-left
       float: left
       max-width: 5.2rem

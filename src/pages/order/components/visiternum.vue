@@ -30,25 +30,41 @@
     },
     methods: {
       handleReduceClick (e) {
-        var val = this.value
-        if (val > 1) {
-          this.value -= 1
+        let val = this.value
+        if (val === 1) {
+          this.value = 1
+          this.notactive = true
+        } else if (val > 1) {
+          --this.value
+          this.$bus.$emit('reduce', -1)
           this.notactive = false
+          this.active = true
         } else {
           this.notactive = true
           this.active = true
         }
       },
       handleIncreaseClick (e) {
-        var val = this.value
-        if (val < 5) {
-          this.value += 1
+        let val = this.value
+        if (val === 5) {
+          this.value = 5
+          this.active = false
+        } else if (val < 5) {
+          ++this.value
+          this.$bus.$emit('increase', 1)
           this.active = true
+          this.notactive = false
         } else {
           this.active = false
           this.notactive = false
         }
+      },
+      makeEvents () {
+        this.$bus.$emit('change', this.value)
       }
+    },
+    updated () {
+      this.makeEvents()
     }
   }
 </script>
@@ -59,7 +75,7 @@
     height: .64rem
     padding: .3rem .2rem
     margin-top: .2rem
-    background: red
+    background: #fff
     .num-left
       float: left
       .num-title
@@ -74,22 +90,25 @@
         font-size: .28rem
         color: #ccc
     .num-right
+      overflow: hidden
       float: right
       .num-reduce
         float: left
         width: .56rem
         height: .56rem
+        border: none
         font-size: .5rem
         line-height: .3rem
       .num-text
-        float: left
+        float: left 
         width: .6rem
-        height: .48rem
+        height: .5rem
         text-align: center
       .num-increase
         float: right
         width: .56rem
         height: .56rem
+        border: none
         font-size: .5rem
         line-height: .3rem
   .gray
