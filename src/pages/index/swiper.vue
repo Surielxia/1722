@@ -23,9 +23,6 @@
           pagination: '.swiper-pagination'
         }
       }
-    },
-    computed () {
-
     }
   }
 </script>

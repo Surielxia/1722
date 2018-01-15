@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div class="main">
     <index-header></index-header>
     <index-swiper :list="swiperInfo"></index-swiper>
@@ -10,14 +9,10 @@
     </div>
     <index-scroller class="scroller"></index-scroller>
   </div>
-=======
-  <index-header></index-header>
->>>>>>> origin/master
 </template>
 
 <script>
   import IndexHeader from './header'
-<<<<<<< HEAD
   import IndexSwiper from './swiper'
   import IndexIcons from './icons'
   import IndexScroller from './scroller'
@@ -53,17 +48,10 @@
     },
     created () {
       this.getIndexData()
-=======
-  export default {
-    name: 'index',
-    components: {
-      IndexHeader
->>>>>>> origin/master
     }
   }
 </script>
 
-<<<<<<< HEAD
 <style lang="stylus" scoped>
   .main
     display flex
@@ -85,6 +73,3 @@
         .place-text
           line-height .98rem
 </style>
-=======
-<style scoped></style>
->>>>>>> origin/master

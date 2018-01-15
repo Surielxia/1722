@@ -22,7 +22,7 @@
         }
       },
       computed: {
-        totleprice: function () {
+        totleprice () {
           return this.price * this.value
         }
       },

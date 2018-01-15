@@ -3,12 +3,10 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-const store = new Vuex.Store({
+var store = new Vuex.Store({
   state: {
     city: ''
   }
 })
 
-export default {
-  store
-}
+export default store
