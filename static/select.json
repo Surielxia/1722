@@ -1,0 +1,166 @@
+{
+	"ret": true,
+	"data": {
+		"selectAllLsit": [
+			{
+				"id": 1001,
+				"imgUrl": "https://img1.qunarzz.com/piao/fusion/1509/9d/0ee9e4808773f.png",
+				"text": "全部分类",
+				"allCount": 111
+			},	
+			{
+				"id": 1002,
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1608/8b/4bea8e26d8f12502.png",
+				"text": "一日游",
+				"allCount": 111,
+				"oneContent": [
+					{
+						"nei": "全部一日游",
+						"count": "184"
+					},{
+						"nei": "周边游",
+						"count": "184"
+					},{
+						"nei": "当地游",
+						"count": "184"
+					}
+				]
+			},	
+			{
+				"id": 1003,
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1608/73/0c8e23368dceac02.png",
+				"text": "文化古迹",
+				"allCount": 111,
+				"oneContent": [
+					{
+						"nei": "全部文化古迹",
+						"count": "154"
+					},{
+						"nei": "古镇",
+						"count": "184"
+					},{
+						"nei": "遗址",
+						"count": "184"
+					}
+				]
+			},
+			{
+				"id": 1004,
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1608/15/d94c0a3f16a48a02.png",
+				"text": "交通",
+				"allCount": 111,
+				"oneContent": [
+					{
+						"nei": "全部交通",
+						"count": "154"
+					},{
+						"nei": "直通车",
+						"count": "184"
+					},{
+						"nei": "索道",
+						"count": "184"
+					}
+				]
+			},
+			{
+				"id": 1005,
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1608/86/95cb8117ad91a402.png",
+				"text": "温泉",
+				"allCount": 111,
+				"oneContent": [
+					{
+						"nei": "全部温泉",
+						"count": "154"
+					}
+				]
+			},
+			{
+				"id": 1006,
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1608/3e/72d2396d47131702.png",
+				"text": "运动健身",
+				"allCount": 111,
+				"oneContent": [
+					{
+						"nei": "全部运动健身",
+						"count": "154"
+					},{
+						"nei": "滑雪",
+						"count": "184"
+					}
+				]
+			},
+			{
+				"id": 1007,
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1608/de/8b3631887808e202.png",
+				"text": "展馆",
+				"allCount": 111,
+				"oneContent": [
+					{
+						"nei": "全部展馆",
+						"count": "154"
+					},{
+						"nei": "博物馆",
+						"count": "184"
+					}
+				]
+			},
+			{
+				"id": 1008,
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1608/d5/59dbd6c5a28aac02.png",
+				"text": "城市风光",
+				"allCount": 111,
+				"oneContent": [
+					{
+						"nei": "全部城市观光",
+						"count": "154"
+					}
+				]
+			},
+			{
+				"id": 1009,
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1608/f8/799d67d22404c602.png",
+				"text": "自然风光",
+				"allCount": 111,
+				"oneContent": [
+					{
+						"nei": "全部自然观光",
+						"count": "154"
+					},{
+						"nei": "海滨海岛",
+						"count": "154"
+					}
+				]
+			},
+			{
+				"id": 1010,
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1608/3e/d07407699d56c202.png",
+				"text": "游乐场",
+				"allCount": 111,
+				"oneContent": [
+					{
+						"nei": "全部游乐场",
+						"count": "154"
+					},{
+						"nei": "主题乐园",
+						"count": "154"
+					}
+				]
+			},
+			{
+				"id": 1011,
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1608/ce/e06a995a69d60702.png",
+				"text": "公园",
+				"allCount": 111,
+				"oneContent": [
+					{
+						"nei": "全部公园",
+						"count": "154"
+					},{
+						"nei": "奥林匹克公园",
+						"count": "154"
+					}
+				]
+			}
+		]
+	}
+}

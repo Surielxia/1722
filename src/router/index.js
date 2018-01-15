@@ -4,6 +4,7 @@ import Details from '@/pages/details/index'
 import Index from '@/pages/index'
 import City from '@/pages/city'
 import Order from '@/pages/order/order'
+import DayTour from '@/pages/DayTour/DayTour.vue'
 
 Vue.use(Router)
 
@@ -25,6 +26,10 @@ export default new Router({
       path: '/details',
       name: 'Details',
       component: Details
+    }, {
+      path: '/dayTour',
+      name: 'DayTour',
+      component: DayTour
     }
   ]
 })
