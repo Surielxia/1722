@@ -30,28 +30,27 @@
 
 <script>
 import axios from 'axios'
-import BScroll from 'better-scroll'
 export default {
   name: 'daytour-nav',
   data () {
-  	return {
-  		type: false,
-  		contentInfo: [],
-  		lists: []
-  	}
+    return {
+      type: false,
+      contentInfo: [],
+      lists: []
+    }
   },
   props: {
-  	list: Array
+    list: Array
   },
   created () {
-  	this.handleGetContent()
+    this.handleGetContent()
   },
   methods: {
-  	handleClickHide () {
-  		if (this.type === true) {
-  			this.type = !this.type
-  		}
-  	},
+    handleClickHide () {
+      if (this.type === true) {
+        this.type = !this.type
+      }
+    },
     selectAll () {
       this.type = !this.type
     },
@@ -63,13 +62,11 @@ export default {
       this.contentInfo = res.data.data.selectAllLsit
     },
     handleClick (id) {
-      //console.log(id)
       this.contentInfo.forEach((value, index) => {
-            if (id == index) {
-           //console.log(value.oneContent)
-                this.lists = value.oneContent
+        if (id === index) {
+          this.lists = value.oneContent
         }
-    	})
+      })
     }
   }
 }

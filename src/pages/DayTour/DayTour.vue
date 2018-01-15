@@ -20,7 +20,7 @@ export default {
   data () {
     return {
       selectInfo: [],
-      introduceInfo: [] 
+      introduceInfo: []
     }
   },
   methods: {
@@ -39,7 +39,7 @@ export default {
     getListData () {
       axios.get('/api/list.json')
         .then(this.handleGetLsitDataSucc.bind(this))
-        .catch(this.handleGetLsitDataErr.bind(this))   		
+        .catch(this.handleGetLsitDataErr.bind(this))
     },
     handleGetLsitDataSucc (res) {
       const data = res.data.data
