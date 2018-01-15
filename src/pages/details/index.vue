@@ -41,7 +41,7 @@
     },
     methods: {
       getData () {
-        axios.get('../../../static/index.json')
+        axios.get('../../../static/details.json')
           .then(this.handlegetdataSucc.bind(this))
           .catch(this.handlegetdataErr.bind(this))
       },
