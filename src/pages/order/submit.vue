@@ -62,10 +62,11 @@
         i
          font-size: 0.45rem
     .submit-right
+      flex: 1
       height: 1rem
       .submit-btn
         height:1rem
-        width: 3.6rem
+        width: 100%
         background: #ff9700
         border: none
         font-weight: bold;
