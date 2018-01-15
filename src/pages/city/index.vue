@@ -178,7 +178,7 @@
     }
 </script>
 
-<style scoped>
+<style lang="stylus" scoped>
 .map-header {
     position: fixed;
     top: 0;
