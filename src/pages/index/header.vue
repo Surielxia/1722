@@ -2,10 +2,10 @@
   <div class="header">
   	<div class="back iconfont">&#xe624;</div>
     <div class="search">
-      <span class="iconfont search-icon">&#xe651;</span>
+      <span class="iconfont search-icon">&#xe632;</span>
       请输入搜索内容
     </div>
-    <div class="city">乌鲁木齐</div>
+    <router-link to="./city" class="city">乌鲁木齐</router-link>
   </div>
 </template>
 
@@ -44,6 +44,7 @@ export default {
     .city
       padding: 0 .6rem 0 .2rem
       position: relative
+      color #fff
       &:before
         position: absolute
         top: .36rem
