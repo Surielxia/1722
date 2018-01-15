@@ -7,7 +7,7 @@
           <label class="visiter-textout-note" v-show="name">游客姓名</label>
           <input class="visiter-input" type="text" placeholder="游客姓名" @blur="handleNameBlur" @focus="handleNameFocus">
         </div>
-        <span class="visiter-icon iconfont">1</span>
+        <span class="visiter-icon iconfont">&#xe6a5;</span>
       </div>
       <div class="visiter-tr">
         <label class="visiter-title">手机号</label>
@@ -32,7 +32,7 @@
           <label class="visiter-textout-note" v-show="name">游客姓名</label>
           <input class="visiter-input" type="text" placeholder="游客姓名" @blur="handleNameBlur" @focus="handleNameFocus">
         </div>
-        <span class="visiter-icon iconfont">1</span>
+        <span class="visiter-icon iconfont">&#xe6a5;</span>
       </div>
       <div class="visiter-tr">
         <label class="visiter-title">身份证</label>
@@ -149,4 +149,5 @@
       .visiter-icon
         float: right
         font-size: .32rem
+        color: #00bcd4
 </style>
