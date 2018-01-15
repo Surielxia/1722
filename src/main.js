@@ -6,7 +6,6 @@ import router from './router'
 import FastClick from 'fastclick'
 import 'assets/css/reset.css'
 import 'assets/css/iconfont/iconfont.css'
-import store from '@/store'
 
 FastClick.attach(document.body)
 Vue.config.productionTip = false
@@ -18,7 +17,6 @@ Vue.prototype.$bus = bus
 new Vue({
   el: '#app',
   router,
-  store,
   template: '<App/>',
   components: { App }
 })
