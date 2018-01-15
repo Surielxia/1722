@@ -6,6 +6,7 @@
     <index-score></index-score>
     <index-notice></index-notice>
     <index-remd></index-remd>
+    <index-place></index-place>
   </div>
 </template>
 
@@ -17,6 +18,7 @@
   import axios from 'axios'
   import IndexNotice from './notice'
   import IndexRemd from './remd'
+  import IndexPlace from './place'
   export default {
     name: 'index',
     components: {
@@ -25,7 +27,8 @@
       IndexTime,
       IndexScore,
       IndexNotice,
-      IndexRemd
+      IndexRemd,
+      IndexPlace
     },
     data () {
       return {
