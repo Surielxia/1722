@@ -345,4 +345,3 @@
     font-size: .24rem;
     text-align: center;
 }
-</style>
