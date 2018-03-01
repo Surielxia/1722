@@ -72,4 +72,5 @@
         text-align center
         .place-text
           line-height .98rem
+          width: 100%
 </style>
